@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+  margin: 0 65px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav__item {
+  margin: 0 20px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1f2431;
+}
+.header-icon__item {
+  margin-right: 10px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 60px auto;
+  position: relative;
+}
+.main-block {
+  width: 390px;
+  margin: 75px 100px 185px 40px;
+}
+.main-card__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+  color: #1f2431;
+}
+.main-card__text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #82899b;
+}
+.main-block__btn{
+    width: 215px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color:#315EFB;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.main-card{
+    width: 565px;
+    background-color: #FAFCFF;
+}
+.card--1{
+    height: 220px;
+}
+.main-card__title{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.main-card__img{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.main-card__text{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.card--2{
+    height: 505px;
+}
+.card--3{
+    height: 440px;
+    position: absolute;
+    top: 680px;
+}
+.card--5{
+    height: 725px;
+    position: absolute;
+    top: 1075px;
+}
+.card--4{
+    height: 440px;
+    position: inherit;
+    position: absolute;
+    top: 940px;
+    left: 570px;
+}
+.card--6{
+    height: 440px;
+    position: absolute;
+    left: 570px;
+    top: 1360px;
+}
+.footer{
+  position: absolute;
+  top: 2000px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-block__text{
+  line-height: 20px;
+  color: #82899b;
+}
+.contact--text{
+  margin: 35px 0;
+}
+.newsletter--text{
+  margin: 29px 0;
+}
+.footer-block__form{
+  width: 220px;
+  height: 40px;
+  color: #82899b;
+  border-radius: 6px 0 0 6px;
+  padding-left: 10px;
+  border: 1px solid #82899B;
+}
+.footer-block__btn{
+  background: #315EFB;
+  border: 1px solid #315EFB;
+  border-radius: 0 6px 6px 0;
+  width: 105px;
+  height: 44px;
+  margin-left: -4px;
+  color: #FFFFFF;
+}
